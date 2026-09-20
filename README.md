@@ -2,10 +2,7 @@
 
 ## Changelog
 
-- 0.0.1 First try of the mod
-- 0.0.3
-- 0.0.4
-
+- 0.0.1 Initial Commit
 
 ## License
 
