@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "fungermod",
+	"version": "${version}",
+	"name": "Funger Mod",
+	"description": "Fear and hunger mod by atervictor, brings fear and hunger 1 and 2 to Minecraft. ",
+	"authors": [
+		"atervictor"
+	],
+	"contact": {
+		"homepage": "https://atervictor.neocities.org//",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/fungermod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.atervictor.fungermod.FungerMod"
+		],
+		"fabric-datagen": [
+			"net.atervictor.fungermod.FungerModDataGenerator"
+		],
+		"client": [
+			"net.atervictor.fungermod.FungerModClient"
+		]
+	},
+	"mixins": [
+		"fungermod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
